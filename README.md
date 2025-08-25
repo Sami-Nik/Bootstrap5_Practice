@@ -1,1 +1,1 @@
-https://sami-nik.github.io/Bootstrap5-practice/
+https://sami-nik.github.io/Bootstrap5_practice/
