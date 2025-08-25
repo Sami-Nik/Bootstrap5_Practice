@@ -9,8 +9,8 @@
 <body>
 
   <header class="bg-info text-white text-center py-4">
-    <h1>My Store</h1>
-    <p class="lead">The best products at the best prices</p>
+    <h1 class="my-5">My Store</h1>
+    <p class="lead my-5 container">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut vel nulla cum voluptatem hic, perspiciatis numquam ducimus aspernatur consectetur iusto voluptates rem asperiores totam sunt odio quam sapiente, accusamus maiores. Quasi quis fuga odio ut obcaecati quod praesentium quae culpa id? Laboriosam sunt modi alias reprehenderit molestias, eligendi cupiditate mollitia?</p>
   </header>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -18,10 +18,11 @@
       <a class="navbar-brand" href="#">
         <img class="img-fluid" src="./img/logo.png" alt="Logo">
       </a>
-      <button class="navbar-toggler" type="button">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+  >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse">
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
@@ -31,7 +32,14 @@
       </div>
     </div>
   </nav>
-
+<div class="border-top border-primary opacity-50 my-0.1 "></div>
+    <section class="py-5 bg-dark text-center">
+    <div class="container">
+      <h2 class="display-5 fw-bold text-white my-5" >Welcome to Our Store</h2>
+      <p class="lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem itaque quaerat optio officiis minus repellat et iste blanditiis culpa dolor porro ad dignissimos voluptatum, fugiat sequi voluptas numquam eveniet voluptates in quam sint cupiditate! Nam temporibus ratione nobis. Eum necessitatibus, veniam possimus, eius eos enim nesciunt, totam commodi modi unde facere odio! Ipsa quis nulla dolorum ullam facere earum debitis veritatis omnis odit? Minus minima aperiam laudantium repudiandae, debitis consequuntur aspernatur neque! Odit quaerat eius repellendus nemo a nulla. Rerum?</p>
+      <a href="#" class="btn btn-info btn-lg mt-3 text-white">Shop Now</a>
+    </div>
+  </section>
   <div class="container my-5">
     <div class="row g-4">
       <div class="col-12 col-sm-6 col-lg-4">
@@ -64,6 +72,36 @@
           </div>
         </div>
       </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-100 shadow-lg">
+          <img src="./img/punisher.jpg" class="card-img-top img-fluid" alt="Product 1">
+          <div class="card-body text-center">
+            <h5 class="card-title">Product 4</h5>
+            <p class="card-text">Short description about product number 4.</p>
+            <a href="#" class="btn btn-info text-white">Buy Now</a>
+          </div>
+        </div>
+      </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-100 shadow-lg">
+          <img src="./img/punisher.jpg" class="card-img-top img-fluid" alt="Product 1">
+          <div class="card-body text-center">
+            <h5 class="card-title">Product 5</h5>
+            <p class="card-text">Short description about product number 5.</p>
+            <a href="#" class="btn btn-info text-white">Buy Now</a>
+          </div>
+        </div>
+      </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-100 shadow-lg">
+          <img src="./img/punisher.jpg" class="card-img-top img-fluid" alt="Product 1">
+          <div class="card-body text-center">
+            <h5 class="card-title">Product 6</h5>
+            <p class="card-text">Short description about product number 6.</p>
+            <a href="#" class="btn btn-info text-white">Buy Now</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -71,6 +109,6 @@
     <p class="mb-0">Copyright © 2025 My Store. All Rights Reserved.</p>
   </footer>
 
-  
+  <script src="./assets/JS/bootstrap.js"></script>
 </body>
 </html>
